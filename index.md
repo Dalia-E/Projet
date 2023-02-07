@@ -38,7 +38,7 @@ A travers cette visualisayion, nous avons pu voir le nombre de films programmés
 
 Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. La carte a été choisi avec les régions de 2018. 
 
-## troisième datavisualisation : Comparaison de données
+## Troisième datavisualisation : Comparaison de données
 
 Les données des Box-Office en France durant les années 2021 et 2022 ont été trouvées sur wikipédia. Cependant les données de l'année 2021 ne sont pas complètent car nous étions en période de crise sanitaire et les cinémas étaient ermés durant une période. 
 

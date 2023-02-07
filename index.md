@@ -30,11 +30,6 @@ Dans mon jeux de donnée, j'ai supprimé les colonnes suivantes : J’ai supprim
 
 A travers cette visualisayion, nous avons pu voir le nombre de films programmés et inédits selon la région administrative et la population de la commune. Nous pouvons en déduire que le Top 5 des cinémas où il y a le plus de programmations de films ce sont les suivants: MEGA CGR, PATHE, REX, UGC CINE CITY et GAUMONT. Et dès que l'on cible une autre régions, le classement change car les goûts des établissemnet de cinémas diffère d'une région à une autre. 
 
-
-###### The smallest heading
-
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/12579203"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
  <!DOCTYPE html>
 <html>
  <head>
@@ -44,5 +39,6 @@ A travers cette visualisayion, nous avons pu voir le nombre de films programmés
    <title> titre </title>
  </head>
  <body>
+  <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12579203"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  </body>
 </html>

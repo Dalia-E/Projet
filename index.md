@@ -38,10 +38,24 @@ A travers cette visualisayion, nous avons pu voir le nombre de films programmés
 
 Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. La carte a été choisi avec les régions de 2018. 
 
-### troisième datavisualisation : Comparaison de données
+## troisième datavisualisation : Comparaison de données
 
 Les données des Box-Office en France durant les années 2021 et 2022 ont été trouvées sur wikipédia. Cependant les données de l'année 2021 ne sont pas complètent car nous étions en période de crise sanitaire et les cinémas étaient ermés durant une période. 
 
 <iframe src='https://flo.uri.sh/visualisation/12557017/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12557017/?utm_source=embed&utm_campaign=visualisation/12557017' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 <iframe src='https://flo.uri.sh/visualisation/12557155/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12557155/?utm_source=embed&utm_campaign=visualisation/12557155' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+Ains à cause de la pandémie de covid19 plusieurs films ont vu leur date de sortie repoussées.
+
+## Quatrième datavisualisation : Comparaison de données 
+
+
+
+
+## Visualisation de la France avec Wikidata Query Service
+
+## Conclusion
+
+
+

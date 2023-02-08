@@ -27,9 +27,7 @@ Dans mon jeux de donnée, j'ai supprimé les colonnes suivantes : J’ai supprim
 Pour visualiser ces données, il a fallu faire les modifications nécessaire sur le fichier csv. Cela a pu se faire grâce à openoffice et ainsi pouvoir passer à l'étape suivante, la visualisation des données grâce aux différents outils vu en cours.
 
 
-
-
-## Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques (Flourish)
+## 2. Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques (Flourish)
 
 Afin de pouvoir faire ce visuel, nous avons décidé d'utiliser le graphique "Char type Bars". Cela permet de faire une comparaison entre différentes variables. 
 
@@ -37,28 +35,29 @@ Afin de pouvoir faire ce visuel, nous avons décidé d'utiliser le graphique "Ch
 
 A travers cette visualisayion, nous avons pu voir le nombre de films programmés et inédits selon la région administrative et la population de la commune. Nous pouvons en déduire que le Top 5 des cinémas où il y a le plus de programmations de films ce sont les suivants: MEGA CGR, PATHE, REX, UGC CINE CITY et GAUMONT. Et dès que l'on cible une autre régions, le classement change car les goûts des établissemnet de cinémas diffère d'une région à une autre. 
 
-## Deuxième datavisualisation à l'aide d'une carte (Datawrapper)
+## 3. Deuxième datavisualisation à l'aide d'une carte (Datawrapper)
 
 Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. La carte a été choisi avec les régions de 2018. 
 
-## Troisième datavisualisation : Comparaison de données
+## 4. Troisième datavisualisation : Comparaison de données
 
 Les données des Box-Office en France durant les années 2021 et 2022 ont été trouvées sur wikipédia. Cependant les données de l'année 2021 ne sont pas complètent car nous étions en période de crise sanitaire et les cinémas étaient ermés durant une période. 
 
 <iframe src='https://flo.uri.sh/story/1822932/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1822932/?utm_source=embed&utm_campaign=story/1822932' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 Ainsi à cause de la pandémie de covid19 plusieurs films ont vu leur date de sortie repoussées.
 
-## Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs 
+## 5. Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs 
 
 A travers cette visualisation, nous pouvons voir les différents types de profils qui partent au cinéma. Les différents profis snt réparties dans différentes catégories à savoir les hommes, les enfants, les occasionnels, les adultes, les autres régions ect. Nous pouvons remarqués que entre 60% et 80%, ce sont les personnes "des Autres régions" qui se rendent le plus Cinéma. 
 
-<iframe src='https://flo.uri.sh/visualisation/12556747/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12556747/?utm_source=embed&utm_campaign=visualisation/12556747' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+<iframe src='https://flo.uri.sh/story/1822932/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1822932/?utm_source=embed&utm_campaign=story/1822932' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 ![pourcentage des personnes qui se rendent le plus au Cinéma](https://user-images.githubusercontent.com/103186628/217538923-0fc5c920-3149-4246-9a05-d4662d65b87d.jpg)
 Il s'agit d'une visualisation différente mais qui nous rassure dans notre précèdente analyse. Nous avons juste une rendu qui est différent. 
-## Visualisation de la France avec Wikidata Query Service
+## 6. Visualisation de la France avec Wikidata Query Service
 
-## Conclusion
+
+## 8. Conclusion
 
 
 

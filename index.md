@@ -21,7 +21,10 @@ Ainsi, ce corpus de données se révèle être une mine d’or pour quiconque so
 Telle est ainsi l’ambition de ce travail, qui permettra de faire ressortir les constantes comme les exceptions en matière de fréquentation de salles de cinéma françaises, en mettant l’accent sur des éléments d’interprétation et d’explication afin de contextualiser ce jeu de données. 
 
 Le jeu de données utilisé comme unique source de ce travail est facilement téléchargeable à l’adresse suivante : https://www.data.gouv.fr/fr/datasets/etablissements-cinematographiques/. Il s’agit d’un fichier Excel répartissant plusieurs colonnes sur l'emplacements, le nom l'adresse, la commune des cinémas. Et j'ai alimenté mon jeu de donnée avec un autre qui est télécheargeable à l'adresse suivante: https://public.opendatasoft.com/explore/dataset/cnc-public-des-films/information/?flg=fr&disjunctive.categorie. 
-Dans mon jeux de donnée, j'ai supprimé les colonnes suivantes : J’ai supprimé la colonne genre dans le jeu de données principales car elles ne renvoyait qu’aux termes « Fixes ».  Et la colonne catégorie Art et Essai et label Art et Essai car il y avait énormément de manque d’informations, et films Art et Essai. En effet, ellesles informations ne correspondaient pas à mes recherches 
+Dans mon jeux de donnée, j'ai supprimé les colonnes suivantes : J’ai supprimé la colonne genre dans le jeu de données principales car elles ne renvoyait qu’aux termes « Fixes ».  Et la colonne catégorie Art et Essai et label Art et Essai car il y avait énormément de manque d’informations, et films Art et Essai. En effet, ellesles informations ne correspondaient pas à mes recherches.
+
+### Visualisation des données
+Pour visualiser ces données, il a fallu faire les modifications nécessaire sur le fichier csv. Cela a pu se faire grâce à openoffice et ainsi pouvoir passer à l'étape suivante, la visualisation des données grâce aux différents outils vu en cours.
 
 
 
@@ -52,12 +55,13 @@ Il s'agit des films du Box-Office 2022:
 
 Ainsi à cause de la pandémie de covid19 plusieurs films ont vu leur date de sortie repoussées.
 
-## Quatrième datavisualisation : 
+## Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs 
 
-A travers cette visualisation, nous pouvons voir les différents types de profils qui partent au cinéma. 
+A travers cette visualisation, nous pouvons voir les différents types de profils qui partent au cinéma. Les différents profis snt réparties dans différentes catégories à savoir les hommes, les enfants, les occasionnels, les adultes, les autres régions ect. Nous pouvons remarqués que entre 60% et 80%, ce sont les personnes "des Autres régions" qui se rendent le plus Cinéma. 
 
 <iframe src='https://flo.uri.sh/visualisation/12556747/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12556747/?utm_source=embed&utm_campaign=visualisation/12556747' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
+![Les salles de cinémas en France](file:///C:/Users/dalia/Downloads/viz.rawgraphs.jpg)
 
 
 ## Visualisation de la France avec Wikidata Query Service

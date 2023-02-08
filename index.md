@@ -70,6 +70,8 @@ SELECT DISTINCT ?item ?itemLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". }
 }
 ```
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ11424%3B%0A%20%20%20%20wdt%3AP577%20%3Fpubdate.%0A%20%20FILTER((%3Fpubdate%20%3E%3D%20%222022-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime)%20%26%26%20(%3Fpubdate%20%3C%3D%20%222022-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime))%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
 ### 2) Visualisation des films réalisés par Georges Lucas
 ```sparql
 #defaultView:Graph
@@ -82,6 +84,7 @@ WHERE {
 } GROUP BY ?item ?itemLabel ?_image
 ORDER BY (?date)
 ```
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%20(MIN(%3Fdate)%20AS%20%3FfirstReleased)%20%3F_image%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP161%20wd%3AQ38222%3B%0A%20%20%20%20%20%20%20%20wdt%3AP577%20%3Fdate%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3F_image.%20%7D%0A%7D%20GROUP%20BY%20%3Fitem%20%3FitemLabel%20%3F_image%0AORDER%20BY%20(%3Fdate)" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 ## 7. Conclusion
 

@@ -61,8 +61,7 @@ A travers cette visualisation, nous pouvons voir les différents types de profil
 
 <iframe src='https://flo.uri.sh/visualisation/12556747/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12556747/?utm_source=embed&utm_campaign=visualisation/12556747' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-![Les salles de cinémas en France](file:///C:/Users/dalia/Downloads/viz.rawgraphs.jpg)
-
+![pourcentage des personnes qui se rendent le plus au Cinéma](https://user-images.githubusercontent.com/103186628/217538923-0fc5c920-3149-4246-9a05-d4662d65b87d.jpg)
 
 ## Visualisation de la France avec Wikidata Query Service
 

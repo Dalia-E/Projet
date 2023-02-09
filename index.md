@@ -8,7 +8,7 @@
 2. [Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques(Flourish)](#2-première-datavisualisation-es-différents-types-de-profil-au-Cinéma-selon-les-zones-géographiques-Flourish)
 3. [Deuxième datavisualisation à l'aide d'une carte (Datawrapper)](#3-deuxième-datavisualisation-à-l'aide-d'une-carte-Datawrapper)
 4. [Troisième datavisualisation : Comparaison de données](#4-troisième-datavisualisation-Comparaison-de-données)
-5. [Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs)](#5-quatrième-datavisualisation-Comparaison-entre-Flourish-et-Rawgraphs)
+5. [Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs](#5-quatrième-datavisualisation-Comparaison-entre-Flourish-et-Rawgraphs)
 6. [Cinquième datavisualisation avec Wikidata Query Service](#6-cinquième-datavisualisation-avec-Wikidata-Query-Service)
 7. [Conclusion](#7-Conclusion)
 
@@ -38,7 +38,7 @@ A travers cette visualisayion, nous avons pu voir le nombre de films programmés
 
 ## 3. Deuxième datavisualisation à l'aide d'une carte (Datawrapper)
 
-Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. La carte a été choisi avec les régions de 2018. 
+Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. La carte a été choisi avec les régions de 2018. Pour pouvoir faire cette datavisualisation, il a fallu faire des modifications au niveau des données des régions car elles n'étaient pas conforme au format des régions de la carte sélectionné. Il a fallu par expemple rajouter un trait d'union entre deux régions lorsque c'était nécessaire. Et après cette modification, nous avons pu avoir le résultat suivant. 
 
 ## 4. Troisième datavisualisation : Comparaison de données
 
@@ -90,5 +90,6 @@ ORDER BY (?date)
 
 ## 7. Conclusion
 
+Ce projet m'a permis de pratiquer et de créer des datavisualisations sur le sujet que j'ai sélectionnée. Parfois, pour faire des visualisations, je n'ai pas pu utiliser un modèle car mes données étaient trop volumineuses et le rendu n'était pas compréhensible. C'est pour cela que j'ai décidé de choisir ceux qui allait mettre au mieux en avant mon projet. 
 
 

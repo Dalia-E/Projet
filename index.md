@@ -5,12 +5,14 @@
 # Table des matières
 
 1. [Avant-Propos](#1-Avant-propos)
-2. [Première datavisualisation avec Line chart race (Flourish)](#2-première-datavisualisation-avec-un-line-chart-race-flourish)
-3. [Deuxième datavisualisation avec une carte (Datawrapper)](#3-deuxième-datavisualisation-avec-une-carte-datawrapper)
-4. [Croisement des données](#4-croisement-des-données)
-5. [Troisième datavisualisation avec Bar chart race (Flourish)](#5-troisième-datavisualisation-avec-bar-chart-race-flourish)
-6. [Quatrième datavisualisation des données croisées](#6-quatrième-datavisualisation-des-données-croisées)
-7. [Visualisation de Paris avec Wikidata Query Service](#7-visualisation-de-paris-avec-wikidata-query-service)
+2. [Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques (Flourish)](#2-première-datavisualisation-Les-différents-types-de-profil-au Cinéma-selon-les-zones-géographiques-Flourish)
+3. [Deuxième datavisualisation à l'aide d'une carte (Datawrapper)](#3-deuxième-datavisualisation-à-l'aide-d'une-carte-Datawrapper)
+4. [Troisième datavisualisation : Comparaison de données](#4-troisième-datavisualisation-Comparaison-de-données)
+5. [Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs)](#5-quatrième-datavisualisation-Comparaison-entre-Flourish-et-Rawgraphs)
+6. [Cinquième datavisualisation avec Wikidata Query Service](#6-cinquième-datavisualisation-avec-Wikidata-Query-Service)
+  1.[Datavisualisation des films sortis en 2022] (#1-Datavisualisation des films sortis en 2022)
+  2.
+7. [Conclusion](#7-Conclusion)
 
 ## 1. Avant-Propos et jeu de donnée
 Les données utilisées pour ce travail d’analyse et de visualisation de données ont été récupérées sur le site data.gouv.fr. Elles proviennent du Centre nationale du cinéma et de l’image animée (CNC) qui, comme toutes les autres institutions nationales et collectivités françaises, se doit de rendre ses données publiques. 
@@ -57,9 +59,9 @@ Nous nous sommes focalisés sur le jeu de donnée visant les publics des films. 
 
 Il s'agit d'une visualisation différente mais qui nous rassure dans notre précèdente analyse. En effet, cette fois-ci les résultats sont sous forme de graphique avec en axe des abscisse, les catégories de personnes qui partent au cinéma et en axe des ordonnées les valeurs coresspondante. Nous avons juste une rendu qui n'est pas le même mais nous retrouvons toujours le même résulats.
 
-## 6. Visualisation avec Wikidata Query Service
+## 6. Cinquième datavisualisation avec Wikidata Query Service
 
-### 1) Visualisation des films sortis en 2022
+### 1) Datavisualisation des films sortis en 2022
 
 Avec l'aide d'une requête Wikidata, nous avons pu voir tous les films qui sont sortis durant l'année 2022. Pour cela, il a fallu ajouter un filtre qui a permis d'indiquer la date que l'ont souhaité rechercher.
 
@@ -73,7 +75,7 @@ SELECT DISTINCT ?item ?itemLabel WHERE {
 ```
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP31%20wd%3AQ11424%3B%0A%20%20%20%20wdt%3AP577%20%3Fpubdate.%0A%20%20FILTER((%3Fpubdate%20%3E%3D%20%222022-01-01T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime)%20%26%26%20(%3Fpubdate%20%3C%3D%20%222022-12-31T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime))%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
-### 2) Visualisation des films réalisés par Georges Lucas
+### 2) Datavisualisation des films réalisés par Georges Lucas
 Grâce à cette requête, nous pouvons visualiser tout les films réalisés par Georges Lucas avec un visuel en mode graphe. 
 ```sparql
 #defaultView:Graph

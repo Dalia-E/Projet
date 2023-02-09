@@ -10,7 +10,7 @@
 4. [Troisième datavisualisation : Comparaison de données](#4-troisième-datavisualisation-Comparaison-de-données)
 5. [Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs)](#5-quatrième-datavisualisation-Comparaison-entre-Flourish-et-Rawgraphs)
 6. [Cinquième datavisualisation avec Wikidata Query Service](#6-cinquième-datavisualisation-avec-Wikidata-Query-Service)
-  a.[Datavisualisation des films sortis en 2022] (#a-Datavisualisation-des-films-sortis-en-2022)
+  [Datavisualisation des films sortis en 2022] (#1a-Datavisualisation-des-films-sortis-en-2022)
   2.
 7. [Conclusion](#7-Conclusion)
 
@@ -61,7 +61,7 @@ Il s'agit d'une visualisation différente mais qui nous rassure dans notre préc
 
 ## 6. Cinquième datavisualisation avec Wikidata Query Service
 
-### a. Datavisualisation des films sortis en 2022
+### 1. Datavisualisation des films sortis en 2022
 
 Avec l'aide d'une requête Wikidata, nous avons pu voir tous les films qui sont sortis durant l'année 2022. Pour cela, il a fallu ajouter un filtre qui a permis d'indiquer la date que l'ont souhaité rechercher.
 

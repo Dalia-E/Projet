@@ -10,8 +10,6 @@
 4. [Troisième datavisualisation : Comparaison de données](#4-troisième-datavisualisation-Comparaison-de-données)
 5. [Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs)](#5-quatrième-datavisualisation-Comparaison-entre-Flourish-et-Rawgraphs)
 6. [Cinquième datavisualisation avec Wikidata Query Service](#6-cinquième-datavisualisation-avec-Wikidata-Query-Service)
-  [Datavisualisation des films sortis en 2022] (#1a-Datavisualisation-des-films-sortis-en-2022)
-  2.
 7. [Conclusion](#7-Conclusion)
 
 ## 1. Avant-Propos et jeu de donnée

@@ -61,7 +61,7 @@ Il s'agit d'une visualisation différente mais qui nous rassure dans notre préc
 
 ## 6. Cinquième datavisualisation avec Wikidata Query Service
 
-### 1) Datavisualisation des films sortis en 2022
+### a. Datavisualisation des films sortis en 2022
 
 Avec l'aide d'une requête Wikidata, nous avons pu voir tous les films qui sont sortis durant l'année 2022. Pour cela, il a fallu ajouter un filtre qui a permis d'indiquer la date que l'ont souhaité rechercher.
 

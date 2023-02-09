@@ -1,5 +1,6 @@
 # Projet de datavisualisation: Les différents cinémas de France 
-![Les salles de cinémas en France](https://www.lagazettedescommunes.com/wp-content/uploads/2019/10/cnc-2-capture-1.png)
+![Les salles de cinémas en France](![FdZX0XdXoAIF_Oe](https://user-images.githubusercontent.com/103186628/217844279-25d31c28-7462-4c83-89d7-d8170fce8411.png)
+
 
 # Table des matières
 

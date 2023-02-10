@@ -90,6 +90,7 @@ ORDER BY (?date)
 
 ## 7. Conclusion
 
-Ce projet m'a permis de pratiquer et de créer des datavisualisations sur le sujet que j'ai sélectionnée. Parfois, pour faire des visualisations, je n'ai pas pu utiliser un modèle car mes données étaient trop volumineuses et le rendu n'était pas compréhensible. C'est pour cela que j'ai décidé de choisir ceux qui allait mettre au mieux en avant mon projet. 
+Ce projet m'a permis de pratiquer et de créer des datavisualisations sur le sujet que j'ai sélectionnée. Parfois, pour faire des visualisations, je n'ai pas pu utiliser un modèle car mes données étaient trop volumineuses et le rendu n'était pas compréhensible. C'est pour cela que j'ai décidé de choisir ceux qui allait mettre au mieux en avant mon projet. J'ai préféré utiliser openrefine à OpenOffice pour pouvoir faire une modification sur nos jeux de donnée. 
+Concernant la réalisation du projet, cela a été très intéressant et très instructif. En effe, cela m'a permis de manipuler les différents outils de datavisualisation. Le seul désavantage c'est qu'on ne peut pas avir une datavisualisation du premier coup, il faut pratiquer sur les différents outils afin de trouver celui qui nous convient le mieux. 
 
 

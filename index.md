@@ -37,8 +37,14 @@ A travers cette visualisayion, nous avons pu voir le nombre de films programmés
 
 ## 3. Deuxième datavisualisation à l'aide d'une carte (Datawrapper)
 
-Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. La carte a été choisi avec les régions de 2018. Pour pouvoir faire cette datavisualisation, il a fallu faire des modifications au niveau des données des régions car elles n'étaient pas conforme au format des régions de la carte sélectionné. Il a fallu par expemple rajouter un trait d'union entre deux régions lorsque c'était nécessaire. Et après cette modification, nous avons pu avoir le résultat suivant. 
+Par la suite, nous avons pensé qui'il serait nécessaire de visualiser les différents cinémas de France selon leurs régions avec une carte. 
 
+La carte a été choisi avec les régions de 2018. Pour pouvoir faire cette datavisualisation, il a fallu faire des modifications au niveau des données des régions car elles n'étaient pas conforme au format des régions de la carte sélectionné. Il a fallu par expemple rajouter un trait d'union entre deux régions lorsque c'était nécessaire. Et après cette modification, nous avons pu avoir le résultat suivant. 
+
+<iframe title="Les évolutions d'entrées au Cinéma" aria-label="Carte" id="datawrapper-chart-6DOOd" src="https://datawrapper.dwcdn.net/6DOOd/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="720" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+ 
+Cette datavisualisation permet de montrer l'évolution des entrées au cinéma entre la période de 2019 à 2020. Lorsque l'on pose notre curseur sur les évolutions d'entrées, on peut voir qu'il y a eu des évolutions d'entrées dans les régions eux extrémités de la France, pui il y a eu une forte évolution en Ile-de-France et en Nouvelle-Aquitaine.
+  
 ## 4. Troisième datavisualisation : Comparaison de données
 
 Les données des Box-Office en France durant les années 2021 et 2022 ont été trouvées sur wikipédia. Cependant les données de l'année 2021 ne sont pas complètent car nous étions en période de crise sanitaire et les cinémas étaient ermés durant une période. Ainsi à cause de la pandémie de covid19 plusieurs films ont vu leur date de sortie repoussées.

@@ -4,7 +4,7 @@
 # Table des matières
 
 1. [Avant-Propos](#1-Avant-propos)
-2. [Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques(Flourish)](#2-première-datavisualisation-es-différents-types-de-profil-au-Cinéma-selon-les-zones-géographiques-Flourish)
+2. [Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques (Flourish)](#2-première-datavisualisation-es-différents-types-de-profil-au-Cinéma-selon-les-zones-géographiques-Flourish)
 3. [Deuxième datavisualisation à l'aide d'une carte (Datawrapper)](#3-deuxième-datavisualisation-à-l'aide-d'une-carte-Datawrapper)
 4. [Troisième datavisualisation : Comparaison de données](#4-troisième-datavisualisation-Comparaison-de-données)
 5. [Quatrième datavisualisation : Comparaison entre Flourish et Rawgraphs](#5-quatrième-datavisualisation-Comparaison-entre-Flourish-et-Rawgraphs)
@@ -21,10 +21,10 @@ Ainsi, ce corpus de données se révèle être une mine d’or pour quiconque so
 Telle est ainsi l’ambition de ce travail, qui permettra de faire ressortir les constantes comme les exceptions en matière de fréquentation de salles de cinéma françaises, en mettant l’accent sur des éléments d’interprétation et d’explication afin de contextualiser ce jeu de données. 
 
 Le jeu de données utilisé comme unique source de ce travail est facilement téléchargeable à l’adresse suivante : https://www.data.gouv.fr/fr/datasets/etablissements-cinematographiques/. Il s’agit d’un fichier Excel répartissant plusieurs colonnes sur l'emplacements, le nom l'adresse, la commune des cinémas. Et j'ai alimenté mon jeu de donnée avec un autre qui est télécheargeable à l'adresse suivante: https://public.opendatasoft.com/explore/dataset/cnc-public-des-films/information/?flg=fr&disjunctive.categorie. 
-Dans mon jeux de donnée, j'ai supprimé les colonnes suivantes : J’ai supprimé la colonne genre dans le jeu de données principales car elles ne renvoyait qu’aux termes « Fixes ».  Et la colonne catégorie "Art et Essai" et "label Art et Essai" car il y avait énormément de manque d’informations, et "films Art et Essai". En effet, ellesles informations ne correspondaient pas à mes recherches.
+Dans mon jeux de donnée, j'ai supprimé les colonnes suivantes : la colonne genre dans le jeu de données principales car elles ne renvoyait qu’aux termes « Fixes ».  Et la colonne catégorie "Art et Essai" et "label Art et Essai" car il y avait énormément de manque d’informations, et "films Art et Essai". En effet, les informations ne correspondaient pas à mes recherches.
 
 ### Visualisation des données
-Pour visualiser ces données, il a fallu faire les modifications nécessaire sur le fichier csv. Cela a pu se faire grâce à openoffice et ainsi pouvoir passer à l'étape suivante, la visualisation des données grâce aux différents outils vu en cours.
+Pour visualiser ces données, il a fallu faire les modifications nécessaire sur le fichier csv. Cela a pu se faire grâce à openrefine et ainsi pouvoir passer à l'étape suivante, la visualisation des données grâce aux différents outils vu en cours.
 
 
 ## 2. Première datavisualisation : Les différents types de profil au Cinéma selon les zones géographiques (Flourish)
@@ -47,7 +47,7 @@ Cette datavisualisation permet de montrer l'évolution des entrées au cinéma e
   
 ## 4. Troisième datavisualisation : Comparaison de données
 
-Les données des Box-Office en France durant les années 2021 et 2022 ont été trouvées sur wikipédia. Cependant les données de l'année 2021 ne sont pas complètent car nous étions en période de crise sanitaire et les cinémas étaient ermés durant une période. Ainsi à cause de la pandémie de covid19 plusieurs films ont vu leur date de sortie repoussées.
+Les données des Box-Office en France durant les années 2021 et 2022 ont été trouvées sur wikipédia. Cependant les données de l'année 2021 ne sont pas complètent car nous étions en période de crise sanitaire et les cinémas étaient fermés durant une période. Ainsi à cause de la pandémie de covid19 plusieurs films ont vu leur date de sortie repoussées.
 
 <iframe src='https://flo.uri.sh/story/1822932/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1822932/?utm_source=embed&utm_campaign=story/1822932' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -60,7 +60,7 @@ Nous nous sommes focalisés sur le jeu de donnée visant les publics des films. 
 
 ![pourcentage des personnes qui se rendent le plus au Cinéma](https://user-images.githubusercontent.com/103186628/217538923-0fc5c920-3149-4246-9a05-d4662d65b87d.jpg)
 
-Il s'agit d'une visualisation différente mais qui nous rassure dans notre précèdente analyse. En effet, cette fois-ci les résultats sont sous forme de graphique avec en axe des abscisse, les catégories de personnes qui partent au cinéma et en axe des ordonnées les valeurs coresspondante. Nous avons juste une rendu qui n'est pas le même mais nous retrouvons toujours le même résulats.
+Il s'agit d'une visualisation différente mais qui nous rassure dans notre précèdente analyse. En effet, cette fois-ci les résultats sont sous forme de graphique avec en axe des abscisse, les catégories de personnes qui partent au cinéma et en axe des ordonnées les valeurs coresspondante. Nous avons juste une rendu qui n'est pas le même mais nous retrouvons toujours le même résultats.
 
 ## 6. Cinquième datavisualisation avec Wikidata Query Service
 
@@ -95,7 +95,7 @@ ORDER BY (?date)
 
 ## 7. Conclusion
 
-Ce projet m'a permis de pratiquer et de créer des datavisualisations sur le sujet que j'ai sélectionnée. Parfois, pour faire des visualisations, je n'ai pas pu utiliser un modèle car mes données étaient trop volumineuses et le rendu n'était pas compréhensible. C'est pour cela que j'ai décidé de choisir ceux qui allait mettre au mieux en avant mon projet. J'ai préféré utiliser openrefine à OpenOffice pour pouvoir faire une modification sur nos jeux de donnée. 
-Concernant la réalisation du projet, cela a été très intéressant et très instructif. En effe, cela m'a permis de manipuler les différents outils de datavisualisation. Le seul désavantage c'est qu'on ne peut pas avir une datavisualisation du premier coup, il faut pratiquer sur les différents outils afin de trouver celui qui nous convient le mieux. 
+Ce projet m'a permis de pratiquer et de créer des datavisualisations sur le sujet que j'ai sélectionnée. Parfois, pour faire des visualisations, je n'ai pas pu utiliser un modèle car mes données étaient trop volumineuses et le rendu n'était pas compréhensible. C'est pour cela que j'ai décidé de choisir ceux qui allait mettre au mieux en avant mon projet. J'ai préféré utiliser openrefine à OpenOffice pour pouvoir faire une modification sur mes jeux de donnée. Sur Openoffice, je ne pouvais pas enregistrer mon fichier au format csv, il fallait obligatoirement l'enregister en odt sinon les colonnes se décaler.
+Concernant la réalisation du projet, cela a été très intéressant et très instructif. En effet, cela m'a permis de manipuler les différents outils de datavisualisation. Le seul désavantage c'est qu'on ne peut pas avoir une datavisualisation du premier coup, il faut pratiquer sur les différents outils afin de trouver celui qui nous convient le mieux. 
 
 
